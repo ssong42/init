@@ -1,0 +1,3 @@
+/etc/debian_version
+
+you just need to cat this and the version number is inside.

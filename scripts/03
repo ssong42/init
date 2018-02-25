@@ -1,0 +1,3 @@
+#!/bin/bash
+
+ls -lpS $1 | grep -v /

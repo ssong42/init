@@ -1,0 +1,4 @@
+# 00 04 * * 1	/bashme.sh
+
+#!/bin/bash
+apt-get update && apt-get dist-upgrade >> /var/log/update_script.log

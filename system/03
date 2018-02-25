@@ -1,0 +1,3 @@
+Edit the file "/etc/hostname" with the new name you want
+Then change the current hostname on "etc/hosts" as well.
+Afterwards restart.

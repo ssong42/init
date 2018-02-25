@@ -1,0 +1,1 @@
+last reboot | sed -n '1p'

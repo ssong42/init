@@ -1,0 +1,10 @@
+# 00 00 * * * /Documents/04.sh
+
+#!/bin/bash
+
+md5sum /etc/crontab > test.txt
+if ! diff -q check.txt test.txt
+then
+	echo "hello you've got mail" | mail -s "crontab changed" root
+fi
+md5sum /etc/crontab > check.txt

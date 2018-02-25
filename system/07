@@ -1,0 +1,4 @@
+Usually its this folder
+cat /var/run/sshd.pid
+But my computer doesnt have that folder and the pid is in this one
+cat /var/run/minissdpd.pid

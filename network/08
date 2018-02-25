@@ -1,0 +1,3 @@
+whois slash16.org | grep Registrar 
+
+After this command you find that the provider is www.bookmyname.com
